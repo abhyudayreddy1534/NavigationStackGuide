@@ -11,7 +11,7 @@ import SwiftUI
 struct NavigationGuideApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SaveAndLoadNavState() //make sure to replace your Specific view here. otherwise it will result in different behaviour
         }
     }
 }
